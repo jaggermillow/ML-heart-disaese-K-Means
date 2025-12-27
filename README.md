@@ -56,3 +56,6 @@ Doğruluk Hesabı: Mean squared error (MSE) ile küme etiketleri ve gerçek targ
 
 K-Means modeli, veriyi 2 kümeye ayırmış ve MSE değeri 0.793 olarak hesaplanmıştır. Bu, kümelemenin gerçek etiketlerle kısmen uyumlu olduğunu gösterir, ancak unsupervised doğası nedeniyle sonuçlar genel olup, lojistik regresyona göre daha düşük performanslıdır.
 
+Danial Pourrashidi Alibeiglou,
+
+Thanks for Enes Gorgulu.
