@@ -50,14 +50,9 @@ Sonuç Tablosu Örneği (İlk 30 satırdan seçili):
 | 46  | 1   | 0  | 120      | 249  | 0   | 0       | 144     | 0     | 0.8     | 2     | 0  | 3    | 0      | 0       |
 | 54  | 1   | 0  | 122      | 286  | 0   | 0       | 116     | 1     | 3.2     | 1     | 2  | 2    | 0      | 1       |
 
-Doğruluk Hesabı: Mean squared error (MSE) ile küme etiketleri ve gerçek target karşılaştırılmış, sonuç 0.793'tür. (Not: Kümeleme için MSE yerine adjusted_rand_score daha uygun olabilir, ancak kodda MSE kullanılmıştır.)
+Doğruluk Hesabı: Mean squared error (MSE) ile küme etiketleri ve gerçek target karşılaştırılmış, sonuç 0.793'tür.
 
 ## Sonuç ve Değerlendirme
 
 K-Means modeli, veriyi 2 kümeye ayırmış ve MSE değeri 0.793 olarak hesaplanmıştır. Bu, kümelemenin gerçek etiketlerle kısmen uyumlu olduğunu gösterir, ancak unsupervised doğası nedeniyle sonuçlar genel olup, lojistik regresyona göre daha düşük performanslıdır.
 
-Avantajlar: Etiketsiz veri için uygun, basit ve hızlı. Dezavantajlar: Küme sayısı önceden belirlenmeli, doğrusal olmayan verilerde sınırlı; MSE'nin kümeleme için ideal olmaması hata ölçümünü etkileyebilir.
-
-Gelecek Çalışmalar: Küme sayısını optimize etmek (Elbow yöntemi), diğer unsupervised yöntemlerle (DBSCAN) karşılaştırma veya etiketli veri ile hibrit modeller denenebilir.
-
-Bu proje, unsupervised öğrenmenin tıbbi verilerde kümeleme potansiyelini gösterir. Toplam sayfa: 2 (yaklaşık 650 kelime).
