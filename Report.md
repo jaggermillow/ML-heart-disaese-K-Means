@@ -1,5 +1,15 @@
 # K-Means ile Kalp Hastalığı Teşhisi Projesi Raporu
 
+
+**Öğrencinin adı-soyadı:** *Danial Pourrashidi Alibeiglou*
+
+
+**Ders adi:** *Yapay zeka ve Makine Öğrenimine giriş*
+
+
+**Öğrenci numarası:** 250121007
+
+
 ## Giriş
 
 Bu proje, K-Means kümeleme algoritması kullanarak kalp hastalığı teşhisi yapmayı amaçlamaktadır. Kullanılan veri seti "heart.csv" dosyası olup, hastaların yaş, cinsiyet, göğüs ağrısı tipi (cp), dinlenme kan basıncı (trestbps), kolesterol seviyesi (chol), açlık kan şekeri (fbs), dinlenme EKG sonuçları (restecg), maksimum kalp atış hızı (thalach), egzersiz kaynaklı anjina (exang), eski tepe (oldpeak), eğim (slope), büyük damar sayısı (ca), thalassemia (thal) ve hedef değişken (target: 0 - hastalık yok, 1 - hastalık var) gibi özelliklerini içermektedir. Veri seti 1025 satır ve 14 sütundan oluşmaktadır.
