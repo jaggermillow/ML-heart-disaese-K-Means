@@ -68,4 +68,7 @@ K-Means modeli, veriyi 2 kümeye ayırmış ve MSE değeri 0.793 olarak hesaplan
 
 Danial Pourrashidi Alibeiglou,
 
+
 Thanks for Enes Gorgulu.
+
+Github Linki : https://github.com/jaggermillow/ML-heart-disaese-K-Means.git
